@@ -38,10 +38,6 @@ A = torch.tensor([[0.1, 0.2]])
 result = lora_forward(x, W, A, B, alpha=1.0) 
 print([[round(v, 4) for v in row.tolist()] for row in result])
 
-‘’‘
-Expected
-[[1.1, 1.2], [1.2, 1.4], [1.3, 1.6]]
-Your Output
-Passed
-[[1.1, 1.2], [1.2, 1.4], [1.3, 1.6]]
-’‘’
+'''
+3/5 tests passed
+'''
